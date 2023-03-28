@@ -276,7 +276,7 @@ def fill_zeros():
             edges[row+1,col+1,2]=-1
 
 def precondition_board():
-    # Perform a baord-wide search for patterns it knows how to fill in
+    # Perform a board-wide search for patterns it knows how to fill in
     # prior to calling the backtracking function, ie.:
     #
     #     x           x               x
